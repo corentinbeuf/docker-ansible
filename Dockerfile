@@ -19,4 +19,4 @@ RUN apk add --update --no-cache \
     && pip install --no-cache-dir -r requirements.txt \
     && apk del .build-deps
 
-CMD ['ansible']
+CMD ["ansible"]
